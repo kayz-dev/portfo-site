@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(npx tsc *)",
+      "Bash(cp \"/c/Users/Jacob/Pictures/Screenshots/Screenshot 2026-04-21 151518.png\" \"/c/Users/Jacob/Jacob personal site/public/work/allure-new-york/cover.jpg\")",
+      "Bash(cp \"/c/Users/Jacob/Pictures/Screenshots/Screenshot 2026-04-21 151543.png\" \"/c/Users/Jacob/Jacob personal site/public/work/ft-gioo/cover.jpg\")"
+    ]
+  }
+}
