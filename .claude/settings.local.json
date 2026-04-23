@@ -4,7 +4,14 @@
       "Bash(npm run *)",
       "Bash(npx tsc *)",
       "Bash(cp \"/c/Users/Jacob/Pictures/Screenshots/Screenshot 2026-04-21 151518.png\" \"/c/Users/Jacob/Jacob personal site/public/work/allure-new-york/cover.jpg\")",
-      "Bash(cp \"/c/Users/Jacob/Pictures/Screenshots/Screenshot 2026-04-21 151543.png\" \"/c/Users/Jacob/Jacob personal site/public/work/ft-gioo/cover.jpg\")"
+      "Bash(cp \"/c/Users/Jacob/Pictures/Screenshots/Screenshot 2026-04-21 151543.png\" \"/c/Users/Jacob/Jacob personal site/public/work/ft-gioo/cover.jpg\")",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(curl -s https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/react.svg)",
+      "Bash(curl -s https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/nextdotjs.svg)",
+      "Bash(curl -s https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/typescript.svg)",
+      "Bash(curl -s https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/tailwindcss.svg)",
+      "Bash(curl -s \"https://raw.githubusercontent.com/simple-icons/simple-icons/develop/README.md\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/simple-icons/simple-icons/develop/data/simple-icons.json\")"
     ]
   }
 }
