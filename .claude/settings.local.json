@@ -11,7 +11,9 @@
       "Bash(curl -s https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/typescript.svg)",
       "Bash(curl -s https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/tailwindcss.svg)",
       "Bash(curl -s \"https://raw.githubusercontent.com/simple-icons/simple-icons/develop/README.md\")",
-      "Bash(curl -s \"https://raw.githubusercontent.com/simple-icons/simple-icons/develop/data/simple-icons.json\")"
+      "Bash(curl -s \"https://raw.githubusercontent.com/simple-icons/simple-icons/develop/data/simple-icons.json\")",
+      "Bash(npm install *)",
+      "Bash(npm list *)"
     ]
   }
 }
