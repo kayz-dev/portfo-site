@@ -26,7 +26,23 @@
       "WebFetch(domain:worldvectorlogo.com)",
       "WebFetch(domain:svgl.app)",
       "Bash(xargs grep *)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(git push *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "mcp__supabase__get_advisors",
+      "Bash(git commit *)",
+      "mcp__supabase__execute_sql",
+      "Bash(npm show *)",
+      "Bash(npx playwright *)",
+      "Bash(npx kill-port *)",
+      "Bash(curl -sv \"http://localhost:3000/auth/callback?code=fakecode&next=/portal/licenses\")",
+      "Bash(curl -sv \"http://localhost:3000/auth/callback?code=fakecode&next=https://evil.com\")",
+      "Bash(npx playwright@latest screenshot --browser=chromium \"http://localhost:3000\" bento-check.png)",
+      "Bash(node -e ' *)"
     ]
-  }
+  },
+  "enabledMcpjsonServers": [
+    "supabase"
+  ]
 }
