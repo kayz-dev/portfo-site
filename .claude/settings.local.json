@@ -39,7 +39,15 @@
       "Bash(curl -sv \"http://localhost:3000/auth/callback?code=fakecode&next=/portal/licenses\")",
       "Bash(curl -sv \"http://localhost:3000/auth/callback?code=fakecode&next=https://evil.com\")",
       "Bash(npx playwright@latest screenshot --browser=chromium \"http://localhost:3000\" bento-check.png)",
-      "Bash(node -e ' *)"
+      "Bash(node -e ' *)",
+      "WebFetch(domain:wisprflow.ai)",
+      "Bash(curl -s -A \"Mozilla/5.0\" https://byinertia.com/robots.txt)",
+      "Bash(curl -s -o /dev/null -L -w \"www -> %{http_code} final: %{url_effective}\\\\n\" -A \"Mozilla/5.0\" \"https://www.byinertia.com/\")",
+      "Bash(curl -s -o /dev/null -L -w \"http -> %{http_code} final: %{url_effective}\\\\n\" -A \"Mozilla/5.0\" \"http://byinertia.com/\")",
+      "PowerShell(tar *)",
+      "PowerShell($p = \\(Invoke-WebRequest -Uri \"http://localhost:3001\" -UseBasicParsing\\).StatusCode; \"page $p\")",
+      "PowerShell($a = \\(Invoke-WebRequest -Uri \"http://localhost:3001/pricing\" -UseBasicParsing\\).StatusCode; $b = \\(Invoke-WebRequest -Uri \"http://localhost:3001\" -UseBasicParsing\\).StatusCode; \"pricing $a index $b\")",
+      "PowerShell($p = \\(Invoke-WebRequest -Uri \"http://localhost:3001/pricing\" -UseBasicParsing\\).StatusCode; \"pricing $p\")"
     ]
   },
   "enabledMcpjsonServers": [
