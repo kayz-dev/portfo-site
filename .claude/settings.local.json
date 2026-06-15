@@ -47,7 +47,8 @@
       "PowerShell(tar *)",
       "PowerShell($p = \\(Invoke-WebRequest -Uri \"http://localhost:3001\" -UseBasicParsing\\).StatusCode; \"page $p\")",
       "PowerShell($a = \\(Invoke-WebRequest -Uri \"http://localhost:3001/pricing\" -UseBasicParsing\\).StatusCode; $b = \\(Invoke-WebRequest -Uri \"http://localhost:3001\" -UseBasicParsing\\).StatusCode; \"pricing $a index $b\")",
-      "PowerShell($p = \\(Invoke-WebRequest -Uri \"http://localhost:3001/pricing\" -UseBasicParsing\\).StatusCode; \"pricing $p\")"
+      "PowerShell($p = \\(Invoke-WebRequest -Uri \"http://localhost:3001/pricing\" -UseBasicParsing\\).StatusCode; \"pricing $p\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000/)"
     ]
   },
   "enabledMcpjsonServers": [
