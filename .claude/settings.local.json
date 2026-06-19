@@ -48,7 +48,17 @@
       "PowerShell($p = \\(Invoke-WebRequest -Uri \"http://localhost:3001\" -UseBasicParsing\\).StatusCode; \"page $p\")",
       "PowerShell($a = \\(Invoke-WebRequest -Uri \"http://localhost:3001/pricing\" -UseBasicParsing\\).StatusCode; $b = \\(Invoke-WebRequest -Uri \"http://localhost:3001\" -UseBasicParsing\\).StatusCode; \"pricing $a index $b\")",
       "PowerShell($p = \\(Invoke-WebRequest -Uri \"http://localhost:3001/pricing\" -UseBasicParsing\\).StatusCode; \"pricing $p\")",
-      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000/)"
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000/)",
+      "WebFetch(domain:vercel.com)",
+      "Bash(node -e \"const p=require\\('./package.json'\\); console.log\\(JSON.stringify\\({deps:p.dependencies, dev:p.devDependencies},null,1\\)\\)\")",
+      "PowerShell(npm install *)",
+      "Bash(node -e \"const d=require\\('./package.json'\\).dependencies; console.log\\('lottie-react:', d['lottie-react']||'NO'\\); console.log\\('peer react ok:', require\\('react/package.json'\\).version\\)\")",
+      "PowerShell(npm uninstall *)",
+      "Bash(ls -la public/*.json public/prism*)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(find public *)",
+      "Bash(awk 'NR>=2640 && NR<=2710 && /^function /{print NR\": \"$0}' app/page.tsx)",
+      "Bash(awk 'NR>=2636 && NR<=2710 && /function /{print NR\": \"$0}' app/page.tsx)"
     ]
   },
   "enabledMcpjsonServers": [
