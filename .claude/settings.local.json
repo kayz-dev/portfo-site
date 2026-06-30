@@ -66,7 +66,8 @@
       "Bash(cp \"C:/Users/Jacob/Pictures/Screenshots/Screenshot 2026-05-28 223159.png\" \"C:/Users/Jacob/Jacob personal site/public/work/aether-2.png\")",
       "Bash(cp \"C:/Users/Jacob/Pictures/Screenshots/Screenshot 2026-05-28 223242.png\" \"C:/Users/Jacob/Jacob personal site/public/work/aether-3.png\")",
       "Bash(cp \"C:/Users/Jacob/Pictures/Screenshots/Screenshot 2026-05-11 000746.png\" \"C:/Users/Jacob/Jacob personal site/public/work/inertia-site.png\")",
-      "Bash(cp \"C:/Users/Jacob/Pictures/Screenshots/Screenshot 2025-09-27 190805.png\" \"C:/Users/Jacob/Jacob personal site/public/work/ftgioo-1.png\")"
+      "Bash(cp \"C:/Users/Jacob/Pictures/Screenshots/Screenshot 2025-09-27 190805.png\" \"C:/Users/Jacob/Jacob personal site/public/work/ftgioo-1.png\")",
+      "Bash(powershell -Command \"Get-Content 'app/components/buttons/page.tsx'\")"
     ]
   },
   "enabledMcpjsonServers": [
