@@ -67,7 +67,12 @@
       "Bash(cp \"C:/Users/Jacob/Pictures/Screenshots/Screenshot 2026-05-28 223242.png\" \"C:/Users/Jacob/Jacob personal site/public/work/aether-3.png\")",
       "Bash(cp \"C:/Users/Jacob/Pictures/Screenshots/Screenshot 2026-05-11 000746.png\" \"C:/Users/Jacob/Jacob personal site/public/work/inertia-site.png\")",
       "Bash(cp \"C:/Users/Jacob/Pictures/Screenshots/Screenshot 2025-09-27 190805.png\" \"C:/Users/Jacob/Jacob personal site/public/work/ftgioo-1.png\")",
-      "Bash(powershell -Command \"Get-Content 'app/components/buttons/page.tsx'\")"
+      "Bash(powershell -Command \"Get-Content 'app/components/buttons/page.tsx'\")",
+      "Bash(mkdir -p __TRACKED_VAR__/ui-backup)",
+      "Bash(cp -r components/ui/. __TRACKED_VAR__/ui-backup/)",
+      "Bash(npx shadcn@latest add dashboard-01 --yes --overwrite)",
+      "Bash(powershell.exe *)",
+      "Bash(npx shadcn@latest add textarea --yes)"
     ]
   },
   "enabledMcpjsonServers": [
