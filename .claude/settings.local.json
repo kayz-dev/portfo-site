@@ -72,7 +72,9 @@
       "Bash(cp -r components/ui/. __TRACKED_VAR__/ui-backup/)",
       "Bash(npx shadcn@latest add dashboard-01 --yes --overwrite)",
       "Bash(powershell.exe *)",
-      "Bash(npx shadcn@latest add textarea --yes)"
+      "Bash(npx shadcn@latest add textarea --yes)",
+      "Bash(netstat -ano)",
+      "mcp__claude_ai_PostHog__exec"
     ]
   },
   "enabledMcpjsonServers": [
